@@ -5,7 +5,7 @@ def fetch_news():
     url = 'https://newsapi.org/v2/everything'
     params = {
         'q': 'technology',  # or any search query you prefer
-        'apiKey': 'cca3611d682645f18e4253beab4c633e',  # Replace with your actual API key
+        'apiKey': 'YOUR_API_KEY',  # Replace with your actual API key
         'pageSize': 20,  # Limit the results to 20 articles
         'sortBy': 'publishedAt',  # Sort by most recent
     }
