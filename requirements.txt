@@ -1,0 +1,5 @@
+pyspark
+requests
+nltk
+newsapi-python
+pymongo
