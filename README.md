@@ -45,19 +45,19 @@ pip install -r requirements.txt
 
 **Set Up Your NewsAPI Key**
 
-Go to https://newsapi.org and generate you own API key 
+- Go to https://newsapi.org and generate you own API key 
 
-In ```config.json``` file input your API key in place of YOUR_API_KEY. 
+- In ```config.json``` file input your API key in place of YOUR_API_KEY. 
 
-Even in the ```news_fetcher.py``` enter your API key. 
+- Even in the ```news_fetcher.py``` enter your API key. 
 
 **Run the pipeline**
 
-Run the ```run_analysis.py``` file to see the final result of the project. 
+- Run the ```run_analysis.py``` file to see the final result of the project. 
 
 **Accessing MongoDB**
 
-Ensure MongoDB is installed. It is used to store the keywords of news headlines 
+- Ensure MongoDB is installed. It is used to store the keywords of news headlines 
 
 - Open the command-line interface of your operating system(eg. Terminal for Mac) and enter the following command:
 
