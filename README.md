@@ -61,9 +61,9 @@ Ensure MongoDB is installed. It is used to store the keywords of news headlines
 
 - Open the command-line interface of your operating system(eg. Terminal for Mac) and enter the following command:
 
-```bash
-mongosh
-```
+  ```bash
+  mongosh
+  ```
 
 - After running MongoDB, use
   ```bash
