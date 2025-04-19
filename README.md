@@ -61,9 +61,15 @@ Ensure MongoDB is installed. It is used to store the keywords of news headlines
 
 - Open the command-line interface of your operating system(eg. Terminal for Mac) and enter the following command:
 
-```mongosh```
+```bash 
+mongosh```
 
-- After running MongoDB, use ```show databases``` to see the databases available. 
+- After running MongoDB, use the following:
+
+```bash
+show databases```
+
+to see the databases available. 
 
 - To access the database for the project, use ```use [DATABASE_NAME]```(eg: ```use news_database```). 
 
