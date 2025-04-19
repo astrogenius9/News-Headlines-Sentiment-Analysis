@@ -61,21 +61,29 @@ Ensure MongoDB is installed. It is used to store the keywords of news headlines
 
 - Open the command-line interface of your operating system(eg. Terminal for Mac) and enter the following command:
 
-```bash 
-mongosh```
-
-- After running MongoDB, use the following:
-
 ```bash
-show databases```
+mongosh
+```
 
-to see the databases available. 
+- After running MongoDB, use
+  ```bash
+  show databases
+  ```
+  to see the databases available. 
 
-- To access the database for the project, use ```use [DATABASE_NAME]```(eg: ```use news_database```). 
+- To access the database for the project, use
+  ```bash
+  use [DATABASE_NAME]
+  ```
+  (eg: ```use news_database```). 
 
-- To access the collections,  run the command: ```show collections```. 
+- To access the collections,  run the command:
+   ```bash
+  show collections
+   ```. 
 
-- After selecting the collection that is storing the keywords, we can use the query: ```db.[COLLECTION_NAME].find()``` to see the keywords being stored for each headline. Other data like ```_id```, ```author```, ```publishedAt```, and ```sentiment``` are shown. 
+- After selecting the collection that is storing the keywords, we can use the query:
+  ```db.[COLLECTION_NAME].find()``` to see the keywords being stored for each headline. Other data like ```_id```, ```author```, ```publishedAt```, and ```sentiment``` are shown. 
 
 
 
