@@ -80,7 +80,7 @@ mongosh
 - To access the collections,  run the command:
    ```bash
   show collections
-   ```. 
+   ``` 
 
 - After selecting the collection that is storing the keywords, we can use the query:
   ```db.[COLLECTION_NAME].find()``` to see the keywords being stored for each headline. Other data like ```_id```, ```author```, ```publishedAt```, and ```sentiment``` are shown. 
